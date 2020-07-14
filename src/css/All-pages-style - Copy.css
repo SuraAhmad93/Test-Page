@@ -1,0 +1,253 @@
+body{padding:0;margin:0;font-family:'Nanum Gothic',sans-serif;font-weight:400;line-height:1.42857143}
+.full{width:100%}
+.pad-0{padding:0}
+.pad-l-0{padding-left:0}
+.pad-r-0{padding-right:0}
+.pad-rl-15{padding:0 15px}
+.fleft{float:left}
+.fright{float:right}
+.fnone{float:none}
+.mar-0-auto{margin:0 auto}
+.clear{clear:both}
+:focus{outline:0}
+.Main-title{font-size:42px;color:#c64b60;margin-top:141px;margin-bottom:52px}
+.Sub-title{font-size:30px;color:#4d4d4d;margin-bottom:55px}
+.Left-menu-category-group-title{font-size:24px;color:#c64b60;margin-top:153px}
+.left-menu-devider{width:24px;height:2px;background-color:#e5b767;margin-top:27px;margin-bottom:27px}
+.left-menu-main-category-title{font-size: 16px;color:#8c8c8c;margin-bottom:23px;}
+.left-side-menu .active{color:#c64b60}
+.left-side-menu ul{padding:0;list-style:none}
+.title-with-bg{font-size:18px;color:#c64b60;padding-bottom:15px;padding-top:15px;padding-left:16px;width:100%;margin-bottom:25px;background-color:#eedbc3}
+.title-without-bg{font-size:18px;color:#c64b60;margin-bottom:25px}
+.pargraph{font-size:16px;color:#4d4d4d}
+.data-entry-block-pad-btm{padding-bottom:102px}
+.registration-radio-btns{width:100%}
+.registration-radio-btns ul{width:50%;float:left;padding:0;list-style:none;margin:0}
+.registration-radio-btns ul li label{font-size:16px;color:#4d4d4d;font-weight:400;margin-bottom:21px}
+.registration-radio-btns input[type=radio]{display:none}
+.registration-radio-btns input[type=radio]+label:before{content:"";display:inline-block;width:19px;height:19px;padding:2px;margin-right:8px;background-clip:content-box;border:2px solid #e5b767;background-color:#fff;border-radius:50%}
+.registration-radio-btns input[type=radio]:checked+label:before{background-color:#e5b767}
+.registration-radio-btns label{display:flex;align-items:center}
+.registration-checkboxes-btns ul{padding:0;list-style:none;margin:0}
+.registration-checkboxes-btns ul li label{font-size:16px;color:#4d4d4d;font-weight:400;margin-bottom:21px}
+.registration-checkboxes-btns input[type=checkbox]{display:none}
+.registration-checkboxes-btns input[type=checkbox]+label:before{content:"";display:inline-block;width:19px;height:19px;margin-right:8px;background-clip:content-box;border:2px solid #e5b767;background-color:#fff;border-radius:10%}
+.registration-checkboxes-btns input[type=checkbox]:checked+label:before{background-color:#e5b767;content:"\2713";font-size:11px;text-align:center;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700}
+.registration-checkboxes-btns label{display:flex;align-items:center;font-weight:400;max-width:fit-content}
+.registration-checkboxes-btns-airportPickUp{width:100%}
+.registration-checkboxes-btns-airportPickUp ul{padding:0;list-style:none;margin:0}
+.registration-checkboxes-btns-airportPickUp ul li{width:50%;float:left}
+.registration-checkboxes-btns-airportPickUp input[type=radio]{display:none}
+.registration-checkboxes-btns-airportPickUp input[type=radio]+label:before{content:"";display:inline-block;width:19px;height:19px;padding:2px;margin-right:8px;background-clip:content-box;border:2px solid #e5b767;background-color:#fff;border-radius:50%}
+.registration-checkboxes-btns-airportPickUp input[type=radio]:checked+label:before{background-color:#e5b767}
+.registration-checkboxes-btns-airportPickUp label{display:flex;align-items:center;font-weight:400;max-width:fit-content}
+.blocks-devider{width:193px;height:6px;background-color:#dbb483;margin:95px 0}
+.registration-select-btns select{border:1px solid #ccc;padding:13px 35px 13px 13px;background:url(../images/arrow.png) no-repeat right;-webkit-appearance:none;background-position-x:98%;color:#8c8c8c;width:100%;margin-bottom:30px;font-size:16px;background-size:10%}
+.registration-select-btns{float:left;width:25%;padding:0 15px}
+.registration-text-inputs{float:left;width:25%;padding:0 15px}
+.registration-text-inputs input{border:1px solid #ccc;padding:13px;color:#8c8c8c;width:100%;margin-bottom:32px}
+.registration-notVisible{display:none}
+.registration-main-label{color:#8c8c8c;font-size:16px;padding-bottom:10px}
+.registration-cn-w-100{width:100%}
+.flexV ul{width:auto;display:flex;float:left}
+.flexV ul li{display:inline-block;padding-right:20px}
+.registration-inside-block-pad-btm{padding-bottom:30px}
+.click-btn input{border:none;padding:22px 18px;background:url(../images/Reg-Arr.png) no-repeat right;-webkit-appearance:none;background-position-x:90%;color:#fff;background-color:#f7596f;margin-top:60px;width:220px;text-align:left;font-size:20px}
+.Registration-Form-CN{padding-bottom:220px}
+.pickup-radio-pad-btm{padding-bottom:20px}
+.registration-checkboxes-btns input[type=checkbox]:disabled+label:before{background:#fafafa;border:2px solid #ccc;cursor:not-allowed}
+.registration-checkboxes-btns-airportPickUp input[type=radio]:disabled+label:before{background:#fcfcfc;border:2px solid #ccc;cursor:not-allowed}
+.registration-radio-btns input[type=radio]:disabled+label:before{background:#fcfcfc;border:2px solid #ccc;cursor:not-allowed}
+.registration-radio-btns ul li select{border:1px solid #ccc;padding:13px;background:url(../images/arrow.png) no-repeat right;-webkit-appearance:none;background-position-x:98%;color:#8c8c8c;width:150px;margin-bottom:30px;font-size:16px;background-size:10%}
+select:disabled{background:#fafafa!important}
+.accordion-head i{font-size:25px;float:right;color:#c64b60}
+.accordion-head>.collapsed>i:before{content:"\f105"}
+.card{position:relative;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;min-width:0;word-wrap:break-word;background-color:#eedbc3;background-clip:border-box;border:none;border-radius:unset;margin-bottom:12px}
+.accordion-head a{color:#c64b60;font-size:20px}
+.accordion-head a:hover{color:#c64b60}
+.accordionBody{background:#fff;padding:15px 50px;border:1px solid #ccc}
+.card-header{padding:15px 15px 15px 52px;border-bottom:none}
+.Full-CN{padding-bottom:220px}
+.participation-page-bg{background:url(../images/participation-bg.png);background-size:cover;padding-bottom:75px;background-position:left bottom}
+.Main-title-white-color{font-size:42px;color:#fff;padding-top:141px;padding-bottom:10px}
+.pages-redirect-btn{border:none;padding:22px 18px;background:url(../images/Reg-Arr.png) no-repeat right;-webkit-appearance:none;background-position-x:90%;background-color:#f7596f;width:100%;text-align:left;font-size:20px}
+.participation-page-bg a{color:#fff}
+.white-color{color:#fff}
+.notes-title{font-size:20px;color:#e5b767;padding-top:50px}
+.notes-container{background:#c64b60;padding:0 50px 50px 50px}
+.notes-devider{width:24px;height:2px;background-color:#e5b767;margin-top:27px;margin-bottom:27px}
+.pad-l-20{padding-left:20px;list-style:disc}
+.row{margin-right:0;margin-left:0}
+.pickup-radio-pad-btm ul{width:100%}
+ul.pad-l-20 li{line-height:1.4}
+a:hover{text-decoration:none!important}
+.title-without-bg-gold{font-size:28px;color:#dbb483;margin-bottom:25px}
+.tab_container{width:100%;margin:0 auto;position:relative;text-align:center}
+.tab_container input,.tab_container section{clear:both;padding-top:10px;display:none}
+.tab_container label{font-size:16px;display:inline;float:none;width:15px;padding:0 7% 38px 7%;color:#f7596f;cursor:pointer;text-decoration:none;text-align:center;opacity:.5}
+#tab1:checked~#content1,#tab2:checked~#content2,#tab3:checked~#content3,#tab4:checked~#content4,#tab5:checked~#content5{display:block;padding:0 120px 90px 120px;background:#fff;color:#999}
+.tab_container .tab-content h3,.tab_container .tab-content p{-webkit-animation:fadeInScale .7s ease-in-out;-moz-animation:fadeInScale .7s ease-in-out;animation:fadeInScale .7s ease-in-out}
+.tab_container .tab-content h3{text-align:center}
+.tab_container [id^=tab]:checked+label{background:#fff;border-bottom:10px solid #c64b60;color:#f7596f;opacity:1}
+.tab_container [id^=tab]:checked+label .fa{color:#0ce}
+.tab_container label .fa{font-size:1.3em;margin:0 .4em 0 0}
+.tab-content{border:2px solid #f7eee4;margin-top:46px;text-align:left}
+@keyframes fadeInScale{
+0%{transform:scale(.9);opacity:0}
+100%{transform:scale(1);opacity:1}
+}
+.tab_container .no_wrap{text-align:center;color:#0ce}
+.tab_container .link{text-align:center}
+.schedule-inner-block{padding-top:65px}
+.schedule-time{padding-right:30px;font-size:13px;color:#b1acb4;text-align:right}
+.schedule-speakers{padding-top:50px}
+.schedule-speakers-inner{margin-bottom:40px}
+.left-side-menu ul li ul{padding-left:15px}
+.left-side-menu ul li ul li .left-menu-main-category-title{margin-bottom:12px}
+.visible-mobile{display:none}
+.visible-desktop{display:block}
+.left-side-menu optgroup[label]{color:#8c8c8c;font-size:13px;font-weight:300}
+.Archive-arrow-right::after{content:"ï„…";font-family:"Font Awesome 5 Free";font-weight:600}
+.Archive-arrow-left::after{content:"ï„„";font-family:"Font Awesome 5 Free";font-weight:600}
+.Archive-arrow-left,.Archive-arrow-right{background:#c64b60;width:47px;height:47px;font-size:33px;text-align:center}
+.archive-year-cn{display:flex;align-items:center;padding-bottom:50px}
+.archive-year{color:#dbb483;font-size:42px;padding:0 76px}
+.archive-black-blocks-devider{width:24px;height:2px;background-color:#000;margin:36px 0}
+.archive-buttons-cn{display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-wrap:wrap;flex-wrap:wrap}
+.archive-buttons-cn .custom-link{width:290px}
+.print-icon::after{content:"ï€¯";font-family:"Font Awesome 5 Free";font-weight:600}
+.left-side-menu ul li ul li .left-menu-main-category-title{color:#b1acb4}
+.left-side-menu ul li ul li .active{color:#c64b60}
+.winners-pad{padding-bottom: 20px;}
+.jif-site{width: 100%;padding: 25px 0px;}
+.visible-320px{display: none !important;}
+.invisible-320px{display: block !important;}
+.left-menu-2col{ 
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+  .copy-icon{margin-top: 15px;cursor: pointer;}
+  .copy-icon::after {
+    content: "";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-weight: 400;color: #fff;
+}
+.copy-icon span{color: #fff;}
+span.Attendees-flag {
+    padding-left: 25px;
+}
+.view-full-att{    margin-top: 50px;}
+.copyboard{    min-width: 150px;}
+@media screen and (max-width:1679px) and (min-width:1280px){
+.center-container{width:1170px;margin:0 auto}
+.Main-title{font-size:33px;margin-top:111px;margin-bottom:41px}
+.Main-title-white-color{font-size:33px;padding-top:111px;padding-bottom:10px}
+.Left-menu-category-group-title{font-size:19px;margin-top:123px}
+.title-with-bg{font-size:15px}
+.title-without-bg{font-size:15px}
+.title-without-bg-gold{font-size:20px}
+.pargraph{font-size:13px}
+.left-menu-main-category-title{font-size:13px;margin-bottom:18px}
+.data-entry-block-pad-btm{padding-bottom:80px}
+.Sub-title{font-size:24px;margin-bottom:43px}
+.registration-radio-btns ul li label{font-size:13px;margin-bottom:17px}
+.registration-checkboxes-btns ul li label{font-size:13px;margin-bottom:17px}
+.registration-main-label{font-size:13px;padding-bottom:5px}
+.registration-text-inputs input{margin-bottom:25px}
+.registration-select-btns select{margin-bottom:25px;font-size:13px}
+.blocks-devider{width:152px;height:6px;margin:75px 0}
+.click-btn input{padding:18px 14px;margin-top:47px;font-size:15px}
+.Registration-Form-CN{padding-bottom:120px}
+.Full-CN{padding-bottom:120px}
+.panel-title{font-size:15px}
+.notes-title{font-size:15px;padding-top:41px}
+.accordion-head a{color:#c64b60;font-size:15px}
+.accordion-head i{font-size:20px}
+.card-header{padding:13px 13px 13px 42px;border-bottom:none}
+.pages-redirect-btn{padding:19px 18px;font-size:18px}
+.archive-year{color:#dbb483;font-size:33px;padding:0 53px}
+.archive-buttons-cn .custom-link {
+    width: 250px;
+    margin-right: 40px;
+}
+}
+@media screen and (min-width:1680px){
+.center-container{width:1470px;margin:0 auto}
+}
+@media screen and (max-width:1024px){
+.center-container{width:100%;padding:0 15px}
+.left-side-menu select{border:1px solid #ccc;width:100%;padding:13px;background:url(../images/arrow.png) no-repeat right;-webkit-appearance:none;background-position-x:98%;color:#8c8c8c;background-size:3%}
+.Left-menu-category-group-title{margin-top:80px}
+.Main-title{font-size:36px;margin-top:70px;margin-bottom:52px}
+.Main-title-white-color{font-size:36px;padding-top:70px;padding-bottom:10px}
+.title-with-bg{font-size:14px}
+.pargraph{font-size:13px}
+.data-entry-block-pad-btm{padding-bottom:70px}
+.registration-text-inputs{width:50%}
+.registration-select-btns{width:50%}
+.registration-radio-btns ul li label{font-size:13px}
+.registration-checkboxes-btns ul li label{font-size:13px}
+.Sub-title{font-size:24px;margin-bottom:30px}
+.blocks-devider{width:155px;margin:75px 0}
+.registration-main-label{font-size:13px}
+.click-btn input{padding:18px 14px;margin-top:40px;font-size:16px}
+.Registration-Form-CN{padding-bottom:100px}
+.Full-CN{padding-bottom:100px}
+.panel-title{font-size:15px}
+.notes-container{margin-top:50px}
+.title-without-bg-gold{font-size:19px}
+.tab_container{width:100%}
+#tab1:checked~#content1,#tab2:checked~#content2,#tab3:checked~#content3,#tab4:checked~#content4,#tab5:checked~#content5{display:block;padding:0 90px 90px 90px;background:#fff;color:#999}
+.schedule-time{text-align:left}
+.schedule-inner-block{padding-top:40px}
+.visible-mobile{display:block}
+.visible-desktop{display:none}
+.archive-year{font-size:33px;padding:0 53px}
+.jif-site {
+    width: 60%;
+}
+}
+@media screen and (max-width:650px){
+.Main-title{font-size:30px}
+.Main-title-white-color{font-size:30px}
+.pad-l-0{padding-left:15px}
+.pad-r-0{padding-right:15px}
+.data-entry-block-pad-btm{padding-bottom:50px}
+.pad-res-0{padding-left:0;padding-right:0}
+.left-menu-devider{margin-top:20px;margin-bottom:20px}
+.registration-select-btns{width:100%}
+.registration-text-inputs{width:100%}
+.reg-block-title{padding-bottom:20px}
+.registration-radio-btns ul{width:100%}
+.Sub-title{margin-bottom:32px}
+.registration-select-btns select{margin-bottom:20px}
+.registration-text-inputs input{margin-bottom:20px}
+.registration-checkboxes-btns ul li label{margin-bottom:15px}
+.blocks-devider{margin:60px 0}
+.registration-checkboxes-btns-airportPickUp ul li{width:100%}
+.registration-checkboxes-btns label{display:inline-block;align-items:unset}
+.registration-checkboxes-btns input[type=checkbox]:checked+label:before{display:inline-block}
+.card-header{padding:15px}
+.accordionBody{padding:15px}
+.flexV ul{width:auto}
+.flexV ul li{display:inline-block;padding-right:9px}
+.tab_container label{font-size:13px;width:25%;padding:0 5% 15px 5%}
+.tab-content{border:2px solid #f7eee4;margin-top:22px;text-align:left}
+#tab1:checked~#content1,#tab2:checked~#content2,#tab3:checked~#content3,#tab4:checked~#content4,#tab5:checked~#content5{padding:0 10px 90px 10px}
+.archive-buttons-cn .custom-link{margin-bottom:12px}
+.left-side-menu select{background-size:7%}
+.jif-site{width: 100%;padding: 25px 0px;}
+}
+@media screen and (max-width:320px){
+.tab_container label{font-size:13px;width:25%;padding:0 3% 15px 3%}
+.visible-320px{display: block !important;}
+.invisible-320px{display: none !important;}
+}
